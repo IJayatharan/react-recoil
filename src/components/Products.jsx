@@ -12,6 +12,7 @@ const Products = () => {
     const [productsCount, setProductsCount] = useRecoilState(ProductsCountState);
     const categories = useRecoilValue(CategoriesState);
     const products = useRecoilValue(GetProducts);
+    //const products = useRecoilValue(GetProductsAsync);
 
     const handlePageChange = (e, value) => {
         setProductsMetaData({...productsMetaData, page:value})

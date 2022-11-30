@@ -29,7 +29,6 @@ export const ProductsCountState = atom({
 export const ProductsMetaDataState = atom({
     key: 'productsMetaDataState',
     default:{
-        pagination:'client',
         page:1,
         limit:8,
         categories:[],
